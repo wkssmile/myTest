@@ -1,0 +1,203 @@
+2018-08-06 11:46:07:802 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/fintab/ response 200
+2018-08-06 11:46:38:768 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/fintab/ response 200
+2018-08-06 11:48:55:100 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/fintab/ response 200
+2018-08-06 11:50:22:518 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 11:56:09:273 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 11:56:32:474 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 503
+2018-08-06 11:56:41:727 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 11:57:06:482 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 11:57:39:347 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 12:00:21:619 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 12:00:53:262 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 12:03:09:247 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/cardano/ response 200
+2018-08-06 12:12:47:533 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 12:15:38:022 [ERROR] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:179] https://www.trackico.io/ico/alfa-enzo/ httpclient execute IOException, it will try again.
+org.apache.http.conn.ConnectTimeoutException: Connect to 183.142.123.160:57112 [/183.142.123.160] failed: connect timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:150)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:388)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.execute(HttpClientSupport.java:140)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.get(HttpClientSupport.java:104)
+	at com.keshi.mytest.core.about.http.SomSiteRequest.getPageContent(SomSiteRequest.java:20)
+	at com.keshi.mytest.core.test.TestTrac.main(TestTrac.java:21)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2018-08-06 12:15:50:416 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 12:22:39:188 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 12:23:44:712 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 12:28:23:194 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 12:40:29:668 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 12:42:39:653 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 13:35:07:460 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 13:37:46:214 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 14:09:02:952 [ERROR] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:179] https://www.trackico.io/ico/alfa-enzo/ httpclient execute IOException, it will try again.
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.createTunnelToTarget(MainClientExec.java:472)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:397)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.execute(HttpClientSupport.java:140)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.get(HttpClientSupport.java:104)
+	at com.keshi.mytest.core.about.http.SomSiteRequest.getPageContent(SomSiteRequest.java:20)
+	at com.keshi.mytest.core.test.TestTrac.main(TestTrac.java:23)
+2018-08-06 14:09:15:890 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 14:15:50:866 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/alfa-enzo/ response 200
+2018-08-06 14:56:23:774 [ERROR] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:179] https://www.trackico.io/ico/nucleus/ httpclient execute IOException, it will try again.
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:284)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:261)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:165)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:167)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:272)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:124)
+	at org.apache.http.impl.execchain.MainClientExec.createTunnelToTarget(MainClientExec.java:472)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:397)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.execute(HttpClientSupport.java:140)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.get(HttpClientSupport.java:104)
+	at com.keshi.mytest.core.about.http.SomSiteRequest.getPageContent(SomSiteRequest.java:20)
+	at com.keshi.mytest.core.test.TestTrac.main(TestTrac.java:23)
+2018-08-06 14:56:41:410 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/nucleus/ response 200
+2018-08-06 14:57:46:708 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/nucleus/ response 200
+2018-08-06 15:00:33:231 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/nucleus/ response 200
+2018-08-06 15:04:31:667 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/nucleus/ response 200
+2018-08-06 15:04:45:039 [ERROR] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:179] https://www.trackico.io/ico/nucleus/ httpclient execute IOException, it will try again.
+java.lang.Exception: javax.net.ssl.SSLException: SSL peer shut down incorrectly
+	at com.keshi.mytest.core.about.http.HttpClientSupport.getResponseAsString(HttpClientSupport.java:216)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.execute(HttpClientSupport.java:155)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.get(HttpClientSupport.java:104)
+	at com.keshi.mytest.core.about.http.SomSiteRequest.getPageContent(SomSiteRequest.java:20)
+	at com.keshi.mytest.core.test.TestTrac.main(TestTrac.java:23)
+Caused by: javax.net.ssl.SSLException: SSL peer shut down incorrectly
+	at sun.security.ssl.InputRecord.readV3Record(InputRecord.java:596)
+	at sun.security.ssl.InputRecord.read(InputRecord.java:532)
+	at sun.security.ssl.SSLSocketImpl.readRecord(SSLSocketImpl.java:983)
+	at sun.security.ssl.SSLSocketImpl.readDataRecord(SSLSocketImpl.java:940)
+	at sun.security.ssl.AppInputStream.read(AppInputStream.java:105)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:139)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:155)
+	at org.apache.http.impl.io.SessionInputBufferImpl.read(SessionInputBufferImpl.java:208)
+	at org.apache.http.impl.io.ChunkedInputStream.read(ChunkedInputStream.java:191)
+	at org.apache.http.conn.EofSensorInputStream.read(EofSensorInputStream.java:137)
+	at java.util.zip.InflaterInputStream.fill(InflaterInputStream.java:238)
+	at java.util.zip.InflaterInputStream.read(InflaterInputStream.java:158)
+	at java.util.zip.GZIPInputStream.read(GZIPInputStream.java:117)
+	at org.apache.http.client.entity.LazyDecompressingInputStream.read(LazyDecompressingInputStream.java:73)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.Reader.read(Reader.java:140)
+	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:247)
+	at org.apache.http.util.EntityUtils.toString(EntityUtils.java:291)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.getResponseAsString(HttpClientSupport.java:213)
+	... 4 more
+2018-08-06 15:04:50:964 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/nucleus/ response 200
+2018-08-06 15:05:01:601 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/nucleus/ response 200
+2018-08-06 15:07:00:368 [ERROR] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:179] https://www.trackico.io/ico/nucleus/ httpclient execute IOException, it will try again.
+org.apache.http.conn.ConnectTimeoutException: Connect to 125.123.126.231:57112 [/125.123.126.231] failed: connect timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:150)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:388)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.execute(HttpClientSupport.java:140)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.get(HttpClientSupport.java:104)
+	at com.keshi.mytest.core.about.http.SomSiteRequest.getPageContent(SomSiteRequest.java:20)
+	at com.keshi.mytest.core.test.TestTrac.main(TestTrac.java:23)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2018-08-06 15:07:19:484 [ERROR] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:179] https://www.trackico.io/ico/nucleus/ httpclient execute IOException, it will try again.
+org.apache.http.conn.ConnectTimeoutException: Connect to 125.123.126.231:57112 [/125.123.126.231] failed: connect timed out
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:150)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:388)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.execute(HttpClientSupport.java:140)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.get(HttpClientSupport.java:104)
+	at com.keshi.mytest.core.about.http.SomSiteRequest.getPageContent(SomSiteRequest.java:20)
+	at com.keshi.mytest.core.test.TestTrac.main(TestTrac.java:23)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2018-08-06 15:07:37:591 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.trackico.io/ico/nucleus/ response 200

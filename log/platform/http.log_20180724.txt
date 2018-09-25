@@ -1,0 +1,81 @@
+2018-07-24 15:58:33:334 [ERROR] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:193] 通过代理IP请求页面报错:
+java.lang.Exception: HttpRequestHeader project must not be null
+	at com.keshi.mytest.core.about.http.HttpClientSupport.buildHeader(HttpClientSupport.java:240)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.execute(HttpClientSupport.java:118)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.get(HttpClientSupport.java:104)
+	at com.keshi.mytest.core.about.http.SomSiteRequest.getPageContent(SomSiteRequest.java:13)
+	at com.keshi.mytest.core.about.http.SomSiteRequest.main(SomSiteRequest.java:21)
+2018-07-24 16:00:26:517 [ERROR] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:193] 通过代理IP请求页面报错:
+java.lang.Exception: HttpRequestHeader site must not be null
+	at com.keshi.mytest.core.about.http.HttpClientSupport.buildHeader(HttpClientSupport.java:243)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.execute(HttpClientSupport.java:118)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.get(HttpClientSupport.java:104)
+	at com.keshi.mytest.core.about.http.SomSiteRequest.getPageContent(SomSiteRequest.java:15)
+	at com.keshi.mytest.core.about.http.SomSiteRequest.main(SomSiteRequest.java:23)
+2018-07-24 16:01:25:355 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.rakuten.co.jp/ response 200
+2018-07-24 16:06:37:191 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.rakuten.co.jp/ response 200
+2018-07-24 16:12:09:637 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.rakuten.co.jp/ response 200
+2018-07-24 16:17:43:444 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.rakuten.co.jp/ response 200
+2018-07-24 16:22:46:196 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.rakuten.co.jp/ response 200
+2018-07-24 16:28:21:687 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] https://www.rakuten.co.jp/ response 200
+2018-07-24 17:50:00:303 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 403
+2018-07-24 17:50:22:389 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 403
+2018-07-24 17:50:44:637 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 403
+2018-07-24 17:51:06:997 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 403
+2018-07-24 17:52:53:901 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 17:53:51:860 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 17:55:35:510 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 403
+2018-07-24 17:55:57:672 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 403
+2018-07-24 17:56:40:461 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 402
+2018-07-24 17:56:41:756 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 402
+2018-07-24 17:56:43:029 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 402
+2018-07-24 17:56:44:381 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 402
+2018-07-24 17:56:45:562 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 402
+2018-07-24 17:56:47:106 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 402
+2018-07-24 17:56:48:440 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 402
+2018-07-24 17:56:49:986 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 402
+2018-07-24 17:56:52:199 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 402
+2018-07-24 17:56:54:326 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 402
+2018-07-24 17:56:56:287 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 402
+2018-07-24 17:56:56:287 [ERROR] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:173] http://www.ellechina.com/ has tried 10 times.
+2018-07-24 17:59:42:045 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 403
+2018-07-24 18:00:04:151 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 403
+2018-07-24 18:03:34:346 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 18:05:15:729 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 18:05:17:053 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 18:05:18:436 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 18:05:19:753 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 18:05:22:567 [ERROR] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:179] http://www.ellechina.com/ httpclient execute IOException, it will try again.
+org.apache.http.conn.HttpHostConnectException: Connect to 14.123.180.91:57112 [/14.123.180.91] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:158)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:388)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:82)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:107)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.execute(HttpClientSupport.java:140)
+	at com.keshi.mytest.core.about.http.HttpClientSupport.get(HttpClientSupport.java:104)
+	at com.keshi.mytest.core.about.http.SomSiteRequest.getPageContent(SomSiteRequest.java:20)
+	at com.keshi.mytest.core.about.http.HttpTest.main(HttpTest.java:12)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
+	... 13 more
+2018-07-24 18:05:24:449 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 18:05:30:092 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 18:05:31:437 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 18:05:33:943 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 18:05:35:258 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
+2018-07-24 18:05:36:513 [INFO] [com.keshi.mytest.core.about.http.HttpClientSupport.execute:148] http://www.ellechina.com/ response 200
