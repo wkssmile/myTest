@@ -1,0 +1,5 @@
+com\keshi\mytest\core\models\FlyPig.class
+com\keshi\mytest\AppTest.class
+com\keshi\mytest\core\aboutQuartz\JobTest.class
+com\keshi\mytest\core\parser\SerializableTest.class
+com\keshi\mytest\core\aboutQuartz\DoNothingJob.class
