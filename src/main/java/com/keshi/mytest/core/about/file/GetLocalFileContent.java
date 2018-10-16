@@ -33,17 +33,11 @@ public class GetLocalFileContent {
             Workbook workbook = ExcelHandle.getWorkbook(file);
             int sheetCount = workbook.getNumberOfSheets(); // Total number of sheets
             for (int s = 0; s < sheetCount; s++) {
-                int id_index = 0;
-                int forward_link_index = 0;
-                String id = "";
-                String forward_link = "";
                 System.out.println("————————————————————————Start processing sheet" + (s + 1) + "————————————————————————");
                 String sheetname = workbook.getSheetName(s);
                 System.out.println("Name of sheet" + (s + 1) + ":" + sheetname);
                 // Set the subscript of the excel sheet: 0 start
                 Sheet sheet = workbook.getSheetAt(s);// The first sheet
-                // Set the count to skip the first line of the directory
-                int count = 0;
                 // Total number of rows
                 int rowLength = sheet.getLastRowNum() + 1;
                 System.out.println("Total number of rows:" + rowLength);
@@ -113,9 +107,7 @@ public class GetLocalFileContent {
     }
 
     public static void main(String[] args) {
-        String filePath = "E:\\data\\ProjectData\\linkedin\\linkedin处理\\for_check_2.xlsx";
-        File file = readFilePathGetfile(filePath);
-//        readExcelContent(file);
+        //        readExcelContent(file);
         String filePath1 = "E:\\data\\ProjectData\\autohome\\reputation_out_20180802-3\\rout\\01chn1pb9268r3jdss60sg0000.html";
         File file1 = readFilePathGetfile(filePath1);
         String content = readFileByLine(file1);
